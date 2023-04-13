@@ -4,7 +4,7 @@ const experience = () => {
 
   return (
     // Main Container
-    <div class="border-t-2 border-t-accent h-auto w-auto mb-24 mt-[20vh] mx-16">
+    <div class="border-t-2 border-t-accent text-portfolioGray h-auto w-auto mb-24 mt-[20vh] mx-16">
       {/* skills scroll Container */}
       <div id='skills' className='py-12 w-auto h-auto'></div>
       {/* Experience container */}
@@ -12,15 +12,15 @@ const experience = () => {
         {/* Left container */}
         <div className='w-2/3'>
           {/* Title */}
-          <h2 className='text-5xl font-normal text-portfolioGray mt-4 xl:text-6xl lg:text-5xl sm:text-4xl xs:text-3xl 2xs:text-2xl'>
+          <h2 className='text-5xl font-normal  mt-4 xl:text-6xl lg:text-5xl sm:text-4xl xs:text-3xl 2xs:text-2xl'>
             <span class='underline decoration-2 underline-offset-4 decoration-accent'>My Experience</span>
           </h2>
 
           {/* Introduction */}
-          <div className='text-portfolioGray font-normal text-xl'>
+          <div className='font-normal text-xl'>
             <div className=''>
               <p className='mt-5 '>
-                While I may not consider myself a master in any particular language, tool, or framework, 
+                While I may not consider myself a master in any particular language, tool, or framework,
               </p>
               <p>I do have some experience working with certain ones.</p>
               <p className='mt-5'>
@@ -29,7 +29,7 @@ const experience = () => {
 
             </div>
           </div>
-          <div className='flex text-portfolioGray font-normal text-xl '>
+          <div className='flex font-normal text-xl '>
             {/* Programming Languages Container */}
             <div className='mr-16'>
               <p className='mt-5 underline decoration-2 underline-offset-4 decoration-portfolioGrau'>
@@ -61,7 +61,10 @@ const experience = () => {
                 <li>PhpMyAdmin</li>
               </ul>
             </div>
-
+          </div>
+          <div className='font-normal text-xl mt-5 3xl:w-2/3'>
+            It's possible that I may have missed or left out a few skills or areas of expertise, so if you're interested in learning more about my experience,
+            feel free to check out my <a href='https://www.linkedin.com/in/niels-feijen-13838816b/' target="_blank" className='hover:underline hover:text-white hover:decoration-accent underline'>LinkedIn</a> profile or ask me in person.
           </div>
         </div>
 
