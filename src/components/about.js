@@ -7,8 +7,8 @@ const about = () => {
 
   return (
     // Main Container
-    <div class="border-t-2 border-t-accent h-auto w-auto mb-24 mt-[20vh] mx-16">
-      <div id='about' className='py-12'></div>
+    <div class="border-t-2 border-t-accent h-auto w-auto mb-24 sm:mt-[20vh] 2xs:mt-[35vh] mx-16">
+      <div id='about' className='sm:py-12 2xs:py-8'></div>
       {/* About Container */}
       <div>
         {/* Title */}
@@ -35,23 +35,23 @@ const about = () => {
 
       </div>
       {/* Find out more button */}
-      <div class="flex flex-row justify-left w-1/2 mb-10 mt-12 animate-bounce cursor-pointer text-portfolioGray hover:text-white">
+      <div class="flex flex-row justify-left sm:w-1/2 2xs:w-auto mb-10 mt-12 animate-bounce cursor-pointer text-portfolioGray hover:text-white">
         <i class="fa-solid fa-angles-down mr-2"></i>
         <h2 class='hover:underline decoration-accent' onClick={() => { document.getElementById("skills").scrollIntoView({ behavior: "smooth" }) }}>
           Find out more my skills
         </h2>
         <i class="fa-solid fa-angles-down ml-2"></i>
       </div>
-      <div className='flex space-x-6 text-portfolioGray '>
-        <div class='w-1/5'>
+      <div className='sm:flex sm:space-x-6 text-portfolioGray '>
+        <div class='sm:w-1/5 2xs:w-auto 2xs:mt-6 sm:mt-0'>
           <img src={psvImage} class='border-b-2 border-b-accent aspect-4/3' alt="Profile Picture" />
           <p className='italic underline decoration-1 underline-offset-2'>My view at PSV</p>
         </div>
-        <div class='w-1/5'>
+        <div class='sm:w-1/5 2xs:w-auto 2xs:mt-6 sm:mt-0'>
           <img src={swissImage} class=' border-b-2 border-b-accent aspect-4/3' alt="Profile Picture" />
           <p className='italic underline decoration-1 underline-offset-2'>Vacation Switzerland 2022</p>
         </div>
-        <div class='w-1/5'>
+        <div class='sm:w-1/5 2xs:w-auto 2xs:mt-6 sm:mt-0'>
           <img src={summaImage} class='border-b-2 border-b-accent aspect-4/3' alt="Profile Picture" />
           <p className='italic underline decoration-1 underline-offset-2'>Summa Graduation</p>
         </div>

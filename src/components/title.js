@@ -3,7 +3,7 @@ import image from '../Images/bread.webp'
 const TitleScreen = () => {
     return (
         // Main Container
-        <div class="flex flex-row mt-20 mx-16">
+        <div class="flex flex-row xs:mt-20 2xs:mt-10 mx-16">
 
             {/* Main Left Container */}
             <div class='h-[70vh] w-2/3 2xs:w-full sm:w-full'>
@@ -41,7 +41,7 @@ const TitleScreen = () => {
                         </div>
                     </div>
                     {/* Find out more button */}
-                    <div class="flex flex-row justify-left w-1/2 mb-10 mt-12 animate-bounce cursor-pointer text-portfolioGray hover:text-white">
+                    <div class="flex flex-row justify-left sm:w-1/2 2xs:w-auto mb-10 mt-12 animate-bounce cursor-pointer  text-portfolioGray hover:text-white">
                         <i class="fa-solid fa-angles-down mr-2"></i>
                         <h2 class='hover:underline decoration-accent' onClick={() => { document.getElementById("about").scrollIntoView({ behavior: "smooth" }) }}>
                             Find out more about me
