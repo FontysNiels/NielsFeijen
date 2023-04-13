@@ -7,7 +7,7 @@ const about = () => {
 
   return (
     // Main Container
-    <div class="border-t-2 border-t-accent h-auto w-auto mb-24 sm:mt-[20vh] xs:mt-[35vh] 2xs:mt-[70vh] mx-16">
+    <div class="border-t-2 border-t-accent h-auto w-auto mb-24 sm:mt-[20vh] xs:mt-[60vh] 2xs:mt-[70vh] mx-16">
       <div id='about' className='sm:py-12 2xs:py-8'></div>
       {/* About Container */}
       <div>
