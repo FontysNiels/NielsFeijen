@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/NielsFeijen/static/css/main.04f328dc.css",
+    "main.js": "/NielsFeijen/static/js/main.13116643.js",
+    "static/js/787.1ed0c42c.chunk.js": "/NielsFeijen/static/js/787.1ed0c42c.chunk.js",
+    "static/media/bread.webp": "/NielsFeijen/static/media/bread.0eb8d568c95f1325059c.webp",
+    "index.html": "/NielsFeijen/index.html",
+    "main.04f328dc.css.map": "/NielsFeijen/static/css/main.04f328dc.css.map",
+    "main.13116643.js.map": "/NielsFeijen/static/js/main.13116643.js.map",
+    "787.1ed0c42c.chunk.js.map": "/NielsFeijen/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.04f328dc.css",
+    "static/js/main.13116643.js"
+  ]
+}
