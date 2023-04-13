@@ -6,7 +6,7 @@ const TitleScreen = () => {
         <div class="flex flex-row xs:mt-20 2xs:mt-10 mx-16">
 
             {/* Main Left Container */}
-            <div class='h-[70vh] w-2/3 2xs:w-full sm:w-full'>
+            <div class='h-[70vh] w-2/3 2xs:w-full sm:w-full sm:mb-0 2xs:mb-[10vh]'>
                 {/* All Text Container */}
                 <div className='text-left text-white mt-12 '>
                     {/* Title (name) */}

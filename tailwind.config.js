@@ -7,10 +7,10 @@ module.exports = {
     screens: {
       '2xs': '50px',
       // => @media (min-width: 50px) { ... }
-  
-      
 
       'xs': '350px',
+
+      // '1xs': '374px',
 
       'sm': '768px',
       // => @media (min-width: 640px) { ... }
