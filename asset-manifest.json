@@ -1,16 +1,19 @@
 {
   "files": {
-    "main.css": "/NielsFeijen/static/css/main.04f328dc.css",
-    "main.js": "/NielsFeijen/static/js/main.13116643.js",
+    "main.css": "/NielsFeijen/static/css/main.4ede6521.css",
+    "main.js": "/NielsFeijen/static/js/main.69f6c744.js",
     "static/js/787.1ed0c42c.chunk.js": "/NielsFeijen/static/js/787.1ed0c42c.chunk.js",
+    "static/media/swiss.webp": "/NielsFeijen/static/media/swiss.9390b52a8bc82cd62794.webp",
+    "static/media/psv.webp": "/NielsFeijen/static/media/psv.60cc5a8d2cb422ab4b74.webp",
+    "static/media/summa.webp": "/NielsFeijen/static/media/summa.025e40be9466a75c8f86.webp",
     "static/media/bread.webp": "/NielsFeijen/static/media/bread.0eb8d568c95f1325059c.webp",
     "index.html": "/NielsFeijen/index.html",
-    "main.04f328dc.css.map": "/NielsFeijen/static/css/main.04f328dc.css.map",
-    "main.13116643.js.map": "/NielsFeijen/static/js/main.13116643.js.map",
+    "main.4ede6521.css.map": "/NielsFeijen/static/css/main.4ede6521.css.map",
+    "main.69f6c744.js.map": "/NielsFeijen/static/js/main.69f6c744.js.map",
     "787.1ed0c42c.chunk.js.map": "/NielsFeijen/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.04f328dc.css",
-    "static/js/main.13116643.js"
+    "static/css/main.4ede6521.css",
+    "static/js/main.69f6c744.js"
   ]
 }
