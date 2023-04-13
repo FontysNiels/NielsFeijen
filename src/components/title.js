@@ -43,7 +43,7 @@ const TitleScreen = () => {
                     {/* Find out more button */}
                     <div class="flex flex-row justify-left sm:w-1/2 2xs:w-auto mb-10 mt-12 animate-bounce cursor-pointer  text-portfolioGray hover:text-white">
                         <i class="fa-solid fa-angles-down mr-2"></i>
-                        <h2 class='hover:underline decoration-accent' onClick={() => { document.getElementById("about").scrollIntoView({ behavior: "smooth" }) }}>
+                        <h2 class='hover:underline decoration-accent ' onClick={() => { document.getElementById("about").scrollIntoView({ behavior: "smooth" }) }}>
                             Find out more about me
                         </h2>
                         <i class="fa-solid fa-angles-down ml-2"></i>

@@ -29,9 +29,9 @@ const experience = () => {
 
             </div>
           </div>
-          <div className='sm:flex font-normal text-xl '>
+          <div className='sm:flex font-normal text-xl'>
             {/* Programming Languages Container */}
-            <div className='mr-16'>
+            <div className='mr-16 '>
               <p className='mt-5 underline decoration-2 underline-offset-4 decoration-portfolioGrau'>
                 Programming Languages:
               </p>
