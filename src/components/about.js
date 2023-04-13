@@ -7,7 +7,7 @@ const about = () => {
 
   return (
     // Main Container
-    <div class="border-t-2 border-t-accent h-auto w-auto mb-24 sm:mt-[20vh] xs:mt-[60vh] 2xs:mt-[70vh] mx-16">
+    <div class="border-t-2 border-t-accent h-auto w-auto mb-24 sm:mt-[20vh] xs:mt-[55vh] 2xs:mt-[70vh] mx-16 xs:mx-10">
       <div id='about' className='sm:py-12 2xs:py-8'></div>
       {/* About Container */}
       <div>
@@ -17,7 +17,7 @@ const about = () => {
         </h2>
 
         {/* Introduction */}
-        <div className='text-portfolioGray font-normal text-xl mr-10 3xl:w-5/6 '>
+        <div className='text-portfolioGray font-normal text-xl sm:mr-10 3xl:w-5/6 '>
           <p className='mt-5 3xl:mr-32'>
             As stated earlier, my name is Niels Feijen. I am a Dutch 20 years old software development student at Fontys University of Applied Sciences in Eindhoven. I was born on June 7th 2002 and live in Nederwetten, Noord-Braband.
           </p>

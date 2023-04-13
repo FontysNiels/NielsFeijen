@@ -4,13 +4,13 @@ const experience = () => {
 
   return (
     // Main Container
-    <div class="border-t-2 border-t-accent text-portfolioGray h-auto w-auto mb-24 sm:mt-[20vh] 2xs:mt-[5vh] mx-16">
+    <div class="border-t-2 border-t-accent text-portfolioGray h-auto w-auto mb-24 sm:mt-[20vh] 2xs:mt-[5vh] mx-16 xs:mx-10">
       {/* skills scroll Container */}
       <div id='skills' className='sm:py-12 2xs:py-8'></div>
       {/* Experience container */}
       <div className='flex '>
         {/* Left container */}
-        <div className='sm:w-2/3 2xs:w-auto'>
+        <div className='sm:w-2/3 '>
           {/* Title */}
           <h2 className='text-5xl font-normal mt-4 xl:text-6xl lg:text-5xl sm:text-4xl xs:text-3xl 2xs:text-2xl'>
             <span class='underline decoration-2 underline-offset-4 decoration-accent'>My Experience</span>

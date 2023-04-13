@@ -3,8 +3,7 @@ import image from '../Images/bread.webp'
 const TitleScreen = () => {
     return (
         // Main Container
-        <div class="flex flex-row xs:mt-20 2xs:mt-10 mx-16">
-
+        <div class="flex flex-row xs:mt-20 2xs:mt-10 mx-16 xs:mx-10">
             {/* Main Left Container */}
             <div class='h-[70vh] w-2/3 2xs:w-full sm:w-full sm:mb-0 2xs:mb-[10vh]'>
                 {/* All Text Container */}
