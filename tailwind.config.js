@@ -27,6 +27,9 @@ module.exports = {
       '3xl': '1600px',
     },
     extend: {
+      aspectRatio: {
+        '4/3': '4 / 3',
+      },
       colors: {
         'accent': '#00F0FF',
         'portfolioGray': '#B7B7B7',

@@ -1,5 +1,5 @@
 import '../App.css';
-import image from '../bread.webp'
+import image from '../Images/bread.webp'
 const TitleScreen = () => {
     return (
         // Main Container
@@ -22,7 +22,7 @@ const TitleScreen = () => {
 
                     {/* Intro Container */}
                     <div>
-                        <h2 className='text-5xl font-normal text-portfolioGray mt-4 xs:text-3xl 2xs:text-2xl'>
+                        <h2 className='text-5xl font-normal text-portfolioGra mt-4 text-portfolioGray xl:text-6xl lg:text-5xl sm:text-4xl xs:text-3xl 2xs:text-2xl'>
                             <span class='underline decoration-2 underline-offset-4 decoration-accent'>Who is that?</span>
                         </h2>
                         {/* 3xl meer dan 96 maar dan is image kut */}

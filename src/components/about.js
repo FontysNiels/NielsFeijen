@@ -1,14 +1,18 @@
 import '../App.css';
+import swissImage from '../Images/swiss.webp'
+import psvImage from '../Images/psv.webp'
+import summaImage from '../Images/summa.webp'
 
 const about = () => {
 
   return (
     // Main Container
-    <div class=" h-auto w-auto mb-24 mt-[20vh] mx-16">
+    <div class="border-t-2 border-t-accent h-auto w-auto mb-24 mt-[20vh] mx-16">
+      <div id='about' className='py-12'></div>
       {/* About Container */}
-      <div id='about'>
+      <div>
         {/* Title */}
-        <h2 className='text-5xl font-normal text-portfolioGray mt-4'>
+        <h2 className='text-5xl font-normal text-portfolioGray mt-4 xl:text-6xl lg:text-5xl sm:text-4xl xs:text-3xl 2xs:text-2xl'>
           <span class='underline decoration-2 underline-offset-4 decoration-accent'>About Me</span>
         </h2>
 
@@ -25,7 +29,31 @@ const about = () => {
           </p>
           <p className='mt-5 3xl:mr-28'>
             I am also a big PSV supporter / fan, I have had a season ticket for around 9 years now and don’t plan on quitting any time soon. What also is a hobby of mine is gaming, but come on did you really expect a software developer to not like gaming.
+            During holidays I love going on vacation to Switzerland, me and my family have been doing this for some years now, and we still love it.
           </p>
+        </div>
+
+      </div>
+      {/* Find out more button */}
+      <div class="flex flex-row justify-left w-1/2 mb-10 mt-12 animate-bounce cursor-pointer text-portfolioGray hover:text-white">
+        <i class="fa-solid fa-angles-down mr-2"></i>
+        <h2 class='hover:underline decoration-accent' onClick={() => { document.getElementById("skills").scrollIntoView({ behavior: "smooth" }) }}>
+          Find out more my skills
+        </h2>
+        <i class="fa-solid fa-angles-down ml-2"></i>
+      </div>
+      <div className='flex space-x-6 text-portfolioGray '>
+        <div class='w-1/5'>
+          <img src={psvImage} class='border-b-2 border-b-accent aspect-4/3' alt="Profile Picture" />
+          <p className='italic underline decoration-1 underline-offset-2'>My view at PSV</p>
+        </div>
+        <div class='w-1/5'>
+          <img src={swissImage} class=' border-b-2 border-b-accent aspect-4/3' alt="Profile Picture" />
+          <p className='italic underline decoration-1 underline-offset-2'>Vacation Switzerland 2022</p>
+        </div>
+        <div class='w-1/5'>
+          <img src={summaImage} class='border-b-2 border-b-accent aspect-4/3' alt="Profile Picture" />
+          <p className='italic underline decoration-1 underline-offset-2'>Summa Graduation</p>
         </div>
 
       </div>

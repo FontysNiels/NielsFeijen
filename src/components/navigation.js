@@ -9,7 +9,7 @@ const navbar = () => {
                 </div>
                 <div class='mt-5 text-xl w-1/3 text-center text-portfolioGray'>
                     <button class="no-underline hover:underline mr-12 hover:text-white decoration-accent" onClick={() => { document.getElementById("about").scrollIntoView({ behavior: "smooth" }) }}>About</button>
-                    <button class="no-underline hover:underline hover:text-white decoration-accent" onClick={() => { document.getElementById("about").scrollIntoView({ behavior: "smooth" }) }}>My Skills</button>
+                    <button class="no-underline hover:underline hover:text-white decoration-accent" onClick={() => { document.getElementById("skills").scrollIntoView({ behavior: "smooth" }) }}>My Skills</button>
                 </div>
                 <div className='w-1/3 text-right text-portfolioGray mr-10 mt-5 hover:text-white'>
                     <a href='https://www.linkedin.com/in/niels-feijen-13838816b/' target="_blank" >
