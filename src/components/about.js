@@ -4,7 +4,7 @@ import psvImage from '../Images/psv.webp'
 import summaImage from '../Images/summa.webp'
 
 const about = () => {
-
+var kan;
   return (
     // Main Container
     <div class="border-t-2 border-t-accent h-auto w-auto mb-24 sm:mt-[20vh] xs:mt-[55vh] 2xs:mt-[70vh] mx-16 xs:mx-10">
