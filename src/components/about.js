@@ -7,7 +7,7 @@ const about = () => {
 var kan;
   return (
     // Main Container
-    <div class="border-t-2 border-t-accent h-auto w-auto mb-24 sm:mt-[20vh] xs:mt-[55vh] 2xs:mt-[70vh] mx-16 xs:mx-10">
+    <div class="border-t-2 border-t-accent h-auto w-auto mb-24 mx-16 xs:mx-10">
       <div id='about' className='sm:py-12 2xs:py-8'></div>
       {/* About Container */}
       <div>

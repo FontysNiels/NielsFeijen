@@ -1,11 +1,12 @@
 import '../App.css';
 import image from '../Images/bread.webp'
+
 const TitleScreen = () => {
     return (
         // Main Container
         <div class="flex flex-row xs:mt-20 2xs:mt-10 mx-16 xs:mx-10">
             {/* Main Left Container */}
-            <div class='h-[70vh] w-2/3 2xs:w-full sm:w-full sm:mb-0 2xs:mb-[10vh]'>
+            <div class='w-2/3 2xs:w-full sm:w-full sm:mb-0 2xs:mb-[10vh]'>
                 {/* All Text Container */}
                 <div className='text-left text-white mt-12 '>
                     {/* Title (name) */}
@@ -39,6 +40,10 @@ const TitleScreen = () => {
 
                         </div>
                     </div>
+
+                    <div class=' flex justify-center mt-8 w-full sm:w-1/3 md:hidden'>
+                        <img src={image} class='border-2 border-accent aspect h-fit' alt="Profile Picture" />
+                    </div>
                     {/* Find out more button */}
                     <div class="flex flex-row justify-left sm:w-1/2 2xs:w-auto mb-10 mt-12 animate-bounce cursor-pointer  text-portfolioGray hover:text-white">
                         <i class="fa-solid fa-angles-down mr-2"></i>
@@ -47,12 +52,14 @@ const TitleScreen = () => {
                         </h2>
                         <i class="fa-solid fa-angles-down ml-2"></i>
                     </div>
+
                 </div>
             </div>
             {/* Main Right Container / Image */}
-            <div class='h-[70vh]  flex justify-center mt-6 w-1/3 2xs:hidden sm:hidden md:block '>
+            <div class='h-[70vh]  flex justify-center mt-6 w-1/3 2xs:hidden md:block '>
                 <img src={image} class='border-2 border-accent aspect h-fit' alt="Profile Picture" />
             </div>
+
 
         </div>
     )
