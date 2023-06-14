@@ -29,7 +29,7 @@ const TitleScreen = () => {
                         <div className='text-portfolioGray font-normal text-xl md:mr-16 lg:mr-16 xl:mr-16 2xl:mr-40 3xl:mr-44 2xs:mr-0'>
 
                             <p className='mt-5'>
-                                Hi, I am Niels Feijen, A 20 year old student at Fontys University of Applied Sciences in Eindhoven. Here I Study HBO ICT & Software Engineering.
+                                Hi, I am Niels Feijen, A 21 year old student at Fontys University of Applied Sciences in Eindhoven. Here I Study HBO ICT & Software Engineering.
                             </p>
                             <p className='mt-5'>
                                 Currently I am in my fourth semester and chose Smart Mobile as my specialization. In this semester I have been working with Kotlin/Jetpack Compose (android) and Swift/SwiftUI (iOS)
