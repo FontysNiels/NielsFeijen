@@ -55,8 +55,8 @@ const TitleScreen = () => {
 
                 </div>
             </div>
-            {/* Main Right Container / Image */}
-            <div class='h-[70vh]  flex justify-center mt-6 w-1/3 2xs:hidden md:block '>
+            {/* Main Right Container / Image     h-[70vh]*/}
+            <div class=' flex justify-center mt-6 mb-8 w-1/3 2xs:hidden md:block '>
                 <img src={image} class='border-2 border-accent aspect h-fit' alt="Profile Picture" />
             </div>
 
