@@ -19,7 +19,7 @@ var kan;
         {/* Introduction */}
         <div className='text-portfolioGray font-normal text-xl sm:mr-10 3xl:w-5/6 '>
           <p className='mt-5 3xl:mr-32'>
-            As stated earlier, my name is Niels Feijen. I am a Dutch 20 years old software development student at Fontys University of Applied Sciences in Eindhoven. I was born on June 7th 2002 and live in Nederwetten, Noord-Braband.
+            As stated earlier, my name is Niels Feijen. I am a Dutch 22 years old software development student at Fontys University of Applied Sciences in Eindhoven. I was born on June 7th 2002 and live in Nederwetten, Noord-Braband.
           </p>
           <p className='mt-5 3xl:mr-28'>
             As you can see in the picture, currently I work at Jumbo. At the bread department to be more specific. I started this job in March of 2020, before this I worked for another supermarket named Jan Linders. I worked there from September 2017 until June 2018, so not that long.
